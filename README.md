@@ -1,4 +1,5 @@
 To-do list:
 
 - Write a proper readme
-- Fix pathing on vscode (or set up vim)
+- Fix ctrl + click pathing on vscode or vim
+- dockerize the application
