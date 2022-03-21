@@ -1,11 +1,13 @@
 <script lang="ts">
-	import Card from "@compon"
+  import ThemeContext from "./ThemeStore.svelte";
+  import Card from "@components/Card.svelte";
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<ThemeContext>
+  <main>
+    <Card />
+  </main>
+</ThemeContext>
 
 <style>
 </style>
