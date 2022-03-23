@@ -2,7 +2,7 @@
   export let title = "";
   let readOnly = true;
 
-  const keyHandler = (e) => {
+  const keyHandler = (e: KeyboardEvent) => {
     if(e.key === "Enter") {
       toggleEditable()
     }

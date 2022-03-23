@@ -1,3 +1,9 @@
+<script lang="ts" context="module">
+  export interface ICard {
+    text: string
+  }
+</script>
+
 <script lang="ts">
   import SmartInput from "@subcomponents/SmartInput.svelte";
   export let title="New card"
