@@ -4,6 +4,7 @@ export const themes: ITheme = {
       border: "1px",
       borderSize: "1px",
       padding: "1px",
+      columnWidth: "15em"
     },
   },
   dark: {

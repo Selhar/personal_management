@@ -80,8 +80,11 @@ export default {
           replacement: require("path").resolve(__dirname, "./src/components"),
         },
         {
-          find: "@parts",
-          replacement: require("path").resolve(__dirname, "./src/parts"),
+          find: "@subcomponents",
+          replacement: require("path").resolve(
+            __dirname,
+            "./src/subcomponents"
+          ),
         },
       ],
     }),
