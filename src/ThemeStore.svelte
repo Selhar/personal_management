@@ -15,7 +15,7 @@
       const newTheme = themes[name];
 
       if (!newTheme) {
-        console.info("Theme not found");
+        console.error("Theme not found");
         return;
       }
 

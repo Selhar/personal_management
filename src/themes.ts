@@ -1,17 +1,26 @@
 export const themes: ITheme = {
   defaults: {
-    sizes: {
-      border: "1px",
-      borderSize: "1px",
-      padding: "1px",
-      columnWidth: "15em"
+    spaces: {
+      tiny: "5px",
+      small: "10px",
+      medium: "15px",
+      large: "20px",
+      shadow: "2px 2px 2.5px"
+    },
+    font: {
+      weightBold: "800",
+    },
+    misc: {
+      radius: "2px",
     },
   },
   dark: {
     name: "dark",
     colors: {
-      text: "red",
-      background: "27323a",
+      text: "white",
+      shadow: "rgba(135, 10, 127)",
+      background: "#12052b",
+      backgroundContrast: "#460545",
     },
   },
   light: {
@@ -28,7 +37,9 @@ type TGenericProperties = {
 export interface ITheme {
   [key: string]: {
     name?: string;
-    sizes?: TGenericProperties;
+    spaces?: TGenericProperties;
     colors?: TGenericProperties;
+    font?: TGenericProperties;
+    misc?: TGenericProperties;
   };
 }
