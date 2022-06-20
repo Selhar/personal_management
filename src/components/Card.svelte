@@ -5,19 +5,25 @@
 </script>
 
 <script lang="ts">
-  import SmartInput from "@subcomponents/SmartInput.svelte";
   export let title="New card"
 </script>
 
-<div class="container">
-  <SmartInput {title}/>
+<div class="cardItem">
+  {title}
 </div>
 
 <style>
-
-  .container {
-    border: var(--theme-borderDefault) var(--theme-borderDefault) solid;
-    padding: var(--theme-paddingDefault);
-    max-width: fit-content;
+  .cardItem {
+    cursor: pointer;
+    color: var(--theme-colors-text);
+    padding: var(--theme-spaces-tiny);
+    background-color: var(--theme-colors-backgroundContrast);
+    border-radius: var(--theme-misc-radius);
+    box-shadow: var(--theme-colors-shadow) var(--theme-spaces-shadow);
   }
+
+  .cardItem:not(:first-child) {
+    margin-top: var(--theme-spaces-small)
+  }
+
 </style>
