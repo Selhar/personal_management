@@ -1,4 +1,5 @@
 To-do list:
+- edit text button for cards
 - Modal component
 - drag and drop between columns
 - prettier on save
