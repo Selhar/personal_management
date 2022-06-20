@@ -3,4 +3,12 @@
     export let title:string
 </script>
 
-<SmartInput {title}/>
+<div class="header">
+  <SmartInput {title}/>
+</div>
+
+<style>
+  .header {
+    padding: 0 0 0 var(--theme-spaces-medium)
+  }
+</style>
