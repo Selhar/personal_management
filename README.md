@@ -1,9 +1,13 @@
 To-do list:
-
+- Modal component
+- drag and drop between columns
+- prettier on save
+- fix textarea cursor on multiline cards
+- column css
+- standardize theme
 - Write a proper readme
 - Fix ctrl + click pathing on vscode or vim
 - dockerize the application
-- Implement intl for PTBR/EN-US
-- prettier on save
+- Implement intl for PTBR/EN-US(?)
 - change app name
 - change favicon
